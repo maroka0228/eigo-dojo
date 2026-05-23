@@ -111,7 +111,7 @@ function playSound(type) {
 async function callClaude(userMessage, systemPrompt) {
   const resp = await fetch("https://api.anthropic.com/v1/messages", {
     method: "POST",
-    headers: { "Content-Type": "application/json", "x-api-key": "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", "anthropic-version": "2023-06-01", "anthropic-dangerous-allow-browser": "true" },
+    headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
       model: "claude-sonnet-4-20250514",
       max_tokens: 1000,
