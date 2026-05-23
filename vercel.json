@@ -1,6 +1,6 @@
 {
   "functions": {
-    "api/claude.js": {
+    "api/claude/index.js": {
       "memory": 128,
       "maxDuration": 30
     }
